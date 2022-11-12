@@ -1,0 +1,14 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Work Sans';
+}
+.container{
+  display: flex;
+  max-width: 1200px;
+
+}
+
+
+
+

@@ -1,0 +1,388 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+.hero{
+  height: 60vh;
+  background-position:center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+nav{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo{
+  width: 80px;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 12.2px;
+  font-family: work sans;
+  font-weight: 500;
+}
+
+.background-overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  z-index: -1;
+  
+}
+
+.content p{
+  color: white;
+  font-size: 19px;
+  font-family: work sans;
+  z-index: 2;
+}
+
+.content h1{
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  transition: 0.5s;
+  z-index: 2;
+  margin-top: 80px;
+}
+
+.content h1:hover{
+  -webkit-text-stroke: 2px #fff;
+  color: transparent;
+}
+.content a{
+  text-decoration: none;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 12px 30px;
+  font-size: 18px;
+  font-family: work sans;
+  font-weight: 300;
+  margin-top: 25px;
+  transition: 0.7s;
+  border: 1px solid white;
+  letter-spacing: 1px;
+  z-index: 2;
+}
+.content a:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.img1{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.content img{
+  margin-top: 40px;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .img1{
+    width: 100%;
+    height: auto;
+  }
+  
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .img1{
+    width: auto;
+    height: 100%;
+  }
+}
+
+/**************** Section One (1) *************/
+
+.section1{
+  padding: 80px 0px;
+}
+.section1 p{
+  color: black;
+  font-size: 24px;
+  font-family: work sans;
+ 
+}
+
+.section1 h1{
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+}
+
+.section1 a{
+  text-decoration: none;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-family: work sans;
+  font-weight: 300;
+  margin-top: 25px;
+  transition: 0.7s;
+  border: 1px solid white;
+  letter-spacing: 1px;
+}
+
+/* Section Two (2) */
+
+.section2 p{
+  color: black;
+  font-size: 24px;
+  font-family: work sans;
+ 
+}
+
+.section2 h1{
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+}
+.section2 h2{
+  font-size: 25px;
+  padding: 20px 0px;
+  font-weight: 700;
+}
+
+/*************** Section Three (3) **************/
+
+.main{
+  border: 12px solid #c42328;
+  border-radius: 40px;
+  padding: 40px 0px;
+}
+
+.section3 h1{
+  font-size: 55px;
+  padding: 20px 0px 40px 0px;
+  font-weight: 800;
+  font-family: 'Allerta Stencil';
+  color: #0975bf;
+  margin-top: -15px;
+}
+.section3 p{
+  font-size: 20px;
+  font-family: 'Work Sans';
+  
+}
+.solid{
+  border: 3px solid #0975bf;
+  width: 47%;
+  opacity: 1;
+  margin-left: 27%;
+  line-height: 0px;
+}
+.f i{
+  
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 21px;
+}
+
+.f h5{
+  
+  align-items: center;
+  justify-content: center;
+  padding-top: 7px;
+  font-family: 'Work Sans';
+  font-weight: 500;
+  font-size: 22px;
+}
+
+/***************** Section 4 **************/
+.main1{
+  padding: 60px 0px;
+  margin-top: 80px;
+  
+}
+.section4 p{
+  font-size: 24px;
+  color: white;
+  font-family: 'Work Sans';
+  color: white;
+}
+.section4{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+/***************** Section 5 **************/
+
+.card{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  padding-top: 30px;
+  border-radius: 0px;
+
+}
+#card2{
+  background-color: black;
+}
+.card-group{
+  padding: 0px 80px;
+  margin-top: -30px;
+}
+.card h5{
+  font-size: 19px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  font-family: 'Work Sans';
+  letter-spacing: 1.5px;
+
+
+} 
+.card p{
+  font-family: 'Work Sans';
+  font-size: 18px;
+
+}
+
+
+#hr1{
+  border: 1px solid #000000;
+  width: 47%;
+  opacity: 1;
+  margin-left: 60%;
+}
+#hr2{
+  border: 1px solid #000000;
+  width: 47%;
+  opacity: 1;
+  margin-left: -10%;
+}
+
+
+#hr3{
+  border: 1px solid #ffffff;
+  width: 47%;
+  opacity: 1;
+  margin-left: 60%;
+}
+#hr4{
+  border: 1px solid #ffffff;
+  width: 47%;
+  opacity: 1;
+  margin-left: -10%;
+}
+
+
+/* Section Six (6) */
+.main3{
+  padding: 100px 0px 50px 0px;
+}
+
+.main3 h1{
+  font-size: 45px;
+  font-weight: 800;
+  color: black;
+}
+.main3 p{
+  font-size: 19px;
+  font-family: 'Work Sans';
+ 
+  color: black;
+}
+
+.heading-title{
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    padding: 0;
+    margin: 0;
+
+}
+
+footer {
+  height: auto;
+  width: 100%;
+  display: block;
+
+}
+.footer-full-width{
+  height: auto;
+  width: 100%;
+  padding-top: 200px;
+  background-color: black;
+  
+}
+.footer-hover{
+  text-decoration: none;
+}
+.tag h1{
+  font-size: 70px;
+  font-family: work sans;
+  font-weight: 900;
+}
+.small-tag p{
+  font-size: 18px;
+  font-family: work sans;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.bottom-bar{
+  padding: 50px 0;
+  margin-top: 60px;
+ 
+}
+.footer-links{
+  padding: 0px 15px;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-links{
+    text-align: center;
+    padding: 0px 8px;
+  }
+ 
+	.section1 p{
+		padding: 0px;
+    margin: 0px;
+    text-align: center;
+    
+	}
+	.section1 img{
+    max-width: 100%;
+    margin-top: 25px;
+}
+}
+
+
+
+
+
+
